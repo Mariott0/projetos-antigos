@@ -1,0 +1,48 @@
+
+
+1 - instalar a linguagem
+node bun run dino 
+
+-- iniciar um projeto node
+
+no terminal eu digito 
+
+-- criar um projeto node
+npm init -y
+
+
+ENOENT
+
+2 - instalar a conexao com banco
+npm i pg knex
+
+3 - verifica se ta funcinando.
+
+4 - carregar os items do arquivo.
+
+5 - percorrer objetoPrincipal
+
+6 - verifica se tem o julio no banco
+
+7 - se nao tem insere se tem altera endereco
+e carrega em uma variavel
+
+8 - percorre itens 
+ 
+9 -  verifica se existe 
+
+10 - se nao insere 
+
+11 - se tem altera o preco
+
+12 - mesma coisa pro interesse
+
+13 - insere um pedido
+
+14 - inserir os itens do pedido
+
+15 - calcula total do pedido
+
+16 - altera o pedido inserindo o valor calculo
+
+17 - vai pro proximo.

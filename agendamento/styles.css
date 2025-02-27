@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4b5447;  /* Cor de fundo */
+    color: #eaeaea;  /* Cor do texto */
+}
+
+header {
+    background-color: #2d332b;  /* Cor do cabeçalho */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #2d332b;  /* Cor do menu lateral */
+    padding: 1em;
+    width: 200px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 1em;
+}
+
+.sidebar a {
+    color: #eaeaea;  /* Cor dos links */
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #4CAF50;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;  /* Cor do texto principal */
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#print-button {
+    margin-bottom: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#print-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #2d332b;  /* Cor do rodapé */
+    color: white;
+}

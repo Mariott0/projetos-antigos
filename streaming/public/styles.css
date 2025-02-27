@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Preto */
+    color: #ffffff; /* Branco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #141414; /* Cinza escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+.nav-button {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e50914; /* Vermelho Netflix */
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #f40612; /* Vermelho mais claro */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Cinza escuro */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Cinza mais claro */
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #aaaaaa;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914; /* Vermelho Netflix */
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #f40612; /* Vermelho mais claro */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    color: #e50914; /* Vermelho Netflix */
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.movie-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.movie-card p {
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}

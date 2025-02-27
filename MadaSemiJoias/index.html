@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Semi-Joias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Semi-Joias</h1>
+        <form id="productForm">
+            <input type="text" id="nomeProduto" placeholder="Nome do Produto" required>
+            <input type="text" id="descricaoProduto" placeholder="Descrição" required>
+            <input type="number" id="precoCusto" placeholder="Preço de Custo" required>
+            <input type="number" id="precoVenda" placeholder="Preço de Venda" required>
+            <input type="number" id="quantidadeEstoque" placeholder="Quantidade em Estoque" required>
+            <input type="text" id="fornecedorProduto" placeholder="Fornecedor" required>
+            <input type="date" id="dataEntrada" required>
+            <button type="submit">Adicionar Produto</button>
+        </form>
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Preço de Custo</th>
+                    <th>Preço de Venda</th>
+                    <th>Quantidade</th>
+                    <th>Fornecedor</th>
+                    <th>Data de Entrada</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
